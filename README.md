@@ -15,8 +15,10 @@ This one i dont know if is save enought to use it, i create for a server and is 
       `checkInvoice` Will check if the Target ID has some unpayed Bills
 
 
-      SQL Create Table:
-      ```sql
+
+   
+     SQL Create Table:
+   ```sql
       CREATE TABLE IF NOT EXISTS `fx_facturas` (
 
   `id` int NOT NULL AUTO_INCREMENT,
@@ -31,4 +33,4 @@ This one i dont know if is save enought to use it, i create for a server and is 
   KEY `uid` (`uid`) USING BTREE
   ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-      ```
+   ```
